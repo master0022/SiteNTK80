@@ -166,7 +166,11 @@ function App() {
           
           <div style={{marginBottom: '30px'}}>
              <Mail size={24} style={{color: 'var(--primary)', marginBottom: '10px'}} />
-             <h3>contato@ntk80.com.br</h3>
+             <h3>
+               <a href="mailto:contato@ntk80.com.br" style={{color: 'var(--primary)', textDecoration: 'none'}}>
+                 contato@ntk80.com.br
+               </a>
+             </h3>
           </div>
 
           <p style={{color: '#888', fontSize: '0.9rem'}}>
